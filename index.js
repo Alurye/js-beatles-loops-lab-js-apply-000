@@ -28,3 +28,12 @@ function johnLennonFacts(facts){
    }
    return LennonFacts;
 }
+
+function iLoveTheBeatles(number){
+  const love = [];
+  do {
+    love.push("I love the Beatles!");
+    number++;
+  } while (number < 15);
+  return love;
+}

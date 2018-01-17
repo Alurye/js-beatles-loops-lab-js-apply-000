@@ -18,8 +18,10 @@ var Beatles = [];
 
 function johnLennonFacts(facts){
   const LennonFacts = [];
+  i = 0;
    while (i < facts.length) {
      LennonFacts.push(facts[i] + "!!!");
+     i++;
    }
    return LennonFacts;
 }
